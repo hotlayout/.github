@@ -11,6 +11,8 @@
 </p>
 <p align="center"><sub>Two apps built in the same editor. Both are published documents drawn by the SDK — try them live at <a href="https://hotlayout.com">hotlayout.com</a>.</sub></p>
 
+<p align="center"><a href="https://www.youtube.com/watch?v=VuBn65spggU"><b>▶ Watch the product overview</b></a> — the whole flow in under two minutes.</p>
+
 ## How it works
 
 1. **Build.** Screens are assembled from widgets in a visual editor: layout, text, lists from data, forms, navigation, translations, a theme with your brand tokens.
@@ -43,5 +45,6 @@ import { HotlayoutScreen } from '@hotlayout/react'
 ## Links
 
 - **Website** — [hotlayout.com](https://hotlayout.com)
+- **Video** — [product overview](https://www.youtube.com/watch?v=VuBn65spggU) and more on the [YouTube channel](https://www.youtube.com/@hotlayoutapp)
 - **Documentation** — [hotlayout.com/docs](https://hotlayout.com/docs): integration guides for developers and a user guide for the editor
 - **Contact** — [contact@hotlayout.com](mailto:contact@hotlayout.com)
