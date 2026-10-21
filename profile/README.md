@@ -9,7 +9,7 @@
   &nbsp;&nbsp;&nbsp;
   <img src="assets/app-sunny.png" alt="The same kind of screen with a different theme, light and playful" width="260">
 </p>
-<p align="center"><sub>Two apps built in the same editor. Both are published documents drawn by the SDK — try them live at <a href="https://hotlayout.com">hotlayout.com</a>.</sub></p>
+<p align="center"><sub>Two apps built in the same editor. Both are published documents drawn by an SDK — try them live at <a href="https://hotlayout.com">hotlayout.com</a>.</sub></p>
 
 <p align="center"><a href="https://www.youtube.com/watch?v=VuBn65spggU"><b>▶ Watch the product overview</b></a> — the whole flow in under two minutes.</p>
 
@@ -25,8 +25,10 @@
 |---|---|---|
 | React (web, Next.js) | [`@hotlayout/react`](https://www.npmjs.com/package/@hotlayout/react) &nbsp; [![npm](https://img.shields.io/npm/v/@hotlayout/react?label=npm&color=0a6cc9)](https://www.npmjs.com/package/@hotlayout/react) | [hotlayout-react](https://github.com/hotlayout/hotlayout-react) |
 | Flutter (iOS, Android) | [`hotlayout_flutter`](https://pub.dev/packages/hotlayout_flutter) &nbsp; [![pub](https://img.shields.io/pub/v/hotlayout_flutter?label=pub.dev&color=0a6cc9)](https://pub.dev/packages/hotlayout_flutter) | [hotlayout-flutter](https://github.com/hotlayout/hotlayout-flutter) |
+| iOS (SwiftUI) | `HotLayout` via Swift Package Manager &nbsp; [![SPM](https://img.shields.io/github/v/tag/hotlayout/hotlayout-ios?label=SPM&color=0a6cc9)](https://github.com/hotlayout/hotlayout-ios) | [hotlayout-ios](https://github.com/hotlayout/hotlayout-ios) |
+| Android (Kotlin, Jetpack Compose) | [`com.hotlayout:hotlayout-android`](https://central.sonatype.com/artifact/com.hotlayout/hotlayout-android) &nbsp; [![Maven Central](https://img.shields.io/maven-central/v/com.hotlayout/hotlayout-android?label=Maven%20Central&color=0a6cc9)](https://central.sonatype.com/artifact/com.hotlayout/hotlayout-android) | [hotlayout-android](https://github.com/hotlayout/hotlayout-android) |
 
-Both SDKs are open source under Apache 2.0 and read the same document: one screen, built once, drawn on every platform.
+All four SDKs are open source under Apache 2.0 and read the same document: one screen, built once, drawn natively on the web, in Flutter, on iOS and on Android.
 
 ```tsx
 import { HotlayoutScreen } from '@hotlayout/react'
