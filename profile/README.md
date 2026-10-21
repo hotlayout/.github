@@ -28,7 +28,7 @@
 | iOS (SwiftUI) | `HotLayout` via Swift Package Manager &nbsp; [![SPM](https://img.shields.io/github/v/tag/hotlayout/hotlayout-ios?label=SPM&color=0a6cc9)](https://github.com/hotlayout/hotlayout-ios) | [hotlayout-ios](https://github.com/hotlayout/hotlayout-ios) |
 | Android (Kotlin, Jetpack Compose) | [`com.hotlayout:hotlayout-android`](https://central.sonatype.com/artifact/com.hotlayout/hotlayout-android) &nbsp; [![Maven Central](https://img.shields.io/maven-central/v/com.hotlayout/hotlayout-android?label=Maven%20Central&color=0a6cc9)](https://central.sonatype.com/artifact/com.hotlayout/hotlayout-android) | [hotlayout-android](https://github.com/hotlayout/hotlayout-android) |
 
-All four SDKs are open source under Apache 2.0 and read the same document: one screen, built once, drawn natively on the web, in Flutter, on iOS and on Android.
+All four SDKs are open source under Apache 2.0 and read the same document: one screen, built once, drawn natively on the web, in Flutter, on iOS and on Android. The contract they implement — the schemas, sample documents and the shared case tables every SDK must pass — is open too: [hotlayout/contract](https://github.com/hotlayout/contract).
 
 ```tsx
 import { HotlayoutScreen } from '@hotlayout/react'
