@@ -5,13 +5,11 @@
 **HotLayout** is a visual editor for server-driven UI. A product team builds an app screen in the editor and publishes it; the app shows the new screen the next time it loads — no build, no store review, no release.
 
 <p align="center">
-  <img src="assets/app-obsidian.png" alt="A rewards app screen built in HotLayout, dark theme" width="260">
+  <img src="assets/app-obsidian.png" alt="A storefront home screen built in HotLayout, light theme" width="260">
   &nbsp;&nbsp;&nbsp;
-  <img src="assets/app-sunny.png" alt="The same kind of screen with a different theme, light and playful" width="260">
+  <img src="assets/app-sunny.png" alt="An onboarding screen built in the same editor, dark theme" width="260">
 </p>
-<p align="center"><sub>Two apps built in the same editor. Both are published documents drawn by an SDK — try them live at <a href="https://hotlayout.com">hotlayout.com</a>.</sub></p>
-
-<p align="center"><a href="https://www.youtube.com/watch?v=VuBn65spggU"><b>▶ Watch the product overview</b></a> — the whole flow in under two minutes.</p>
+<p align="center"><sub>Two apps built in the same editor: a storefront and an onboarding flow. Both are published documents drawn by an SDK — try them live at <a href="https://hotlayout.com">hotlayout.com</a>.</sub></p>
 
 ## How it works
 
@@ -36,7 +34,7 @@ import { HotlayoutScreen } from '@hotlayout/react'
 <HotlayoutScreen
   document={layout} // the layout document, parsed JSON
   theme={theme} // the project theme, parsed JSON
-  data={{ 'user.firstName': 'Ada', 'user.points': 1250 }}
+  data={{ 'user.firstName': 'Ada', 'cart.count': 2 }}
   locale="en"
   onAction={(action, source) => {
     console.log('the user asked for', action.type, action.params, 'on', source.nodeId)
@@ -47,6 +45,6 @@ import { HotlayoutScreen } from '@hotlayout/react'
 ## Links
 
 - **Website** — [hotlayout.com](https://hotlayout.com)
-- **Video** — [product overview](https://www.youtube.com/watch?v=VuBn65spggU) and more on the [YouTube channel](https://www.youtube.com/@hotlayoutapp)
+- **Video** — tutorials on the [YouTube channel](https://www.youtube.com/@hotlayoutapp)
 - **Documentation** — [hotlayout.com/docs](https://hotlayout.com/docs): integration guides for developers and a user guide for the editor
 - **Contact** — [contact@hotlayout.com](mailto:contact@hotlayout.com)
